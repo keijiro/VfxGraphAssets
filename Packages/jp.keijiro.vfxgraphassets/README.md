@@ -1,7 +1,7 @@
 VfxGraphAssets
 ==============
 
-My basic collection of assets for Unity VFX Graph
+Basic asset collection for Unity VFX Graph
 
 How to install the package
 --------------------------

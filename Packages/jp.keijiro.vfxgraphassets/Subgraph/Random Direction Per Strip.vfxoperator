@@ -1936,7 +1936,7 @@ MonoBehaviour:
   - {fileID: 69}
   m_ExposedName: Seed
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 0
   m_Category: 
   m_Min:
     m_Type:
@@ -2289,7 +2289,7 @@ MonoBehaviour:
   m_OutputSlots: []
   m_ExposedName: Direction
   m_Exposed: 0
-  m_Order: 2
+  m_Order: 1
   m_Category: 
   m_Min:
     m_Type:
