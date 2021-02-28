@@ -1,6 +1,10 @@
 {
   "dependencies": {
-    "com.unity.render-pipelines.high-definition": "11.0.0",
-    "com.unity.modules.jsonserialize": "1.0.0"
+    "com.unity.render-pipelines.high-definition": "10.3.1",
+    "com.unity.modules.animation": "1.0.0",
+    "com.unity.modules.imageconversion": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.modules.video": "1.0.0"
   }
 }

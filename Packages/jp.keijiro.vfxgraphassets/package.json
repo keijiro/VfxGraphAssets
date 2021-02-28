@@ -1,12 +1,12 @@
 {
   "author": "Keijiro Takahashi",
-  "dependencies": { "com.unity.shadergraph": "11.0.0" },
+  "dependencies": { "com.unity.shadergraph": "10.0.0" },
   "description": "Keijiro's basic asset collection for VFX Graph",
   "displayName": "VFX Graph Assets",
   "keywords": [ "unity" ],
   "license": "Unlicense",
   "name": "jp.keijiro.vfxgraphassets",
-  "unity": "2021.1",
-  "unityRelease": "0b1",
-  "version": "1.0.0"
+  "unity": "2020.2",
+  "unityRelease": "0f1",
+  "version": "1.0.1"
 }
