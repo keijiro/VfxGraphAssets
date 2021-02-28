@@ -3,6 +3,12 @@ VfxGraphAssets
 
 Basic asset collection for Unity VFX Graph
 
+System requirements
+-------------------
+
+- Unity 2020.2 or later
+- HDRP 10.0 or later
+
 How to install the package
 --------------------------
 
