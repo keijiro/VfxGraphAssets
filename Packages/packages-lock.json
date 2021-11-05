@@ -85,12 +85,21 @@
         "com.unity.render-pipelines.core": "12.1.0"
       }
     },
+    "jp.keijiro.shadergraphassets": {
+      "version": "1.0.4",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.shadergraph": "10.0.0"
+      },
+      "url": "https://registry.npmjs.com"
+    },
     "jp.keijiro.vfxgraphassets": {
       "version": "file:jp.keijiro.vfxgraphassets",
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "com.unity.shadergraph": "10.0.0"
+        "jp.keijiro.shadergraphassets": "1.0.4"
       }
     },
     "com.unity.modules.animation": {

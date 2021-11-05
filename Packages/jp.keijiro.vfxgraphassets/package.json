@@ -1,6 +1,6 @@
 {
   "author": "Keijiro Takahashi",
-  "dependencies": { "com.unity.shadergraph": "10.0.0" },
+  "dependencies": { "jp.keijiro.shadergraphassets": "1.0.4" },
   "description": "Keijiro's basic asset collection for VFX Graph",
   "displayName": "VFX Graph Assets",
   "keywords": [ "unity" ],
