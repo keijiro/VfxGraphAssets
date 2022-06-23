@@ -306,10 +306,10 @@ MonoBehaviour:
   categories: []
   uiBounds:
     serializedVersion: 2
-    x: 291
-    y: -235
-    width: 1665
-    height: 374
+    x: 392
+    y: -119
+    width: 1564
+    height: 238
 --- !u!114 &27
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -657,7 +657,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 2}
   m_Children: []
-  m_UIPosition: {x: 1403, y: -39}
+  m_UIPosition: {x: 1389, y: -33}
   m_UICollapsed: 1
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -702,7 +702,8 @@ MonoBehaviour:
       m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
   m_Direction: 0
-  m_LinkedSlots: []
+  m_LinkedSlots:
+  - {fileID: 56}
 --- !u!114 &39
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -735,8 +736,7 @@ MonoBehaviour:
       m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
   m_Direction: 0
-  m_LinkedSlots:
-  - {fileID: 57}
+  m_LinkedSlots: []
 --- !u!114 &40
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -769,8 +769,7 @@ MonoBehaviour:
       m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
   m_Direction: 0
-  m_LinkedSlots:
-  - {fileID: 58}
+  m_LinkedSlots: []
 --- !u!114 &41
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -803,8 +802,7 @@ MonoBehaviour:
       m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
   m_Direction: 0
-  m_LinkedSlots:
-  - {fileID: 121}
+  m_LinkedSlots: []
 --- !u!114 &42
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1319,7 +1317,8 @@ MonoBehaviour:
       m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
   m_Direction: 1
-  m_LinkedSlots: []
+  m_LinkedSlots:
+  - {fileID: 38}
 --- !u!114 &57
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1352,8 +1351,7 @@ MonoBehaviour:
       m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
   m_Direction: 1
-  m_LinkedSlots:
-  - {fileID: 39}
+  m_LinkedSlots: []
 --- !u!114 &58
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1386,8 +1384,7 @@ MonoBehaviour:
       m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
   m_Direction: 1
-  m_LinkedSlots:
-  - {fileID: 40}
+  m_LinkedSlots: []
 --- !u!114 &59
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1596,7 +1593,7 @@ MonoBehaviour:
   m_OutputSlots: []
   m_ExposedName: Output
   m_Exposed: 0
-  m_Order: 1
+  m_Order: 2
   m_Category: 
   m_Min:
     m_Type:
@@ -1778,7 +1775,7 @@ MonoBehaviour:
   - {fileID: 105}
   m_ExposedName: Camera
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 3
   m_Category: 
   m_Min:
     m_Type:
@@ -1804,8 +1801,6 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 105}
       inputSlot: {fileID: 155}
-    - outputSlot: {fileID: 121}
-      inputSlot: {fileID: 41}
     position: {x: 1200, y: 38.666664}
     expandedSlots: []
     expanded: 1
@@ -1845,7 +1840,7 @@ MonoBehaviour:
         m_SerializableType: UnityEditor.VFX.CameraType, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
       m_SerializableObject: '{"transform":{"position":{"x":0.0,"y":0.0,"z":0.0},"angles":{"x":0.0,"y":0.0,"z":0.0},"scale":{"x":1.0,"y":1.0,"z":1.0}},"orthographic":false,"fieldOfView":1.0471975803375245,"nearPlane":0.30000001192092898,"farPlane":1000.0,"orthographicSize":5.0,"aspectRatio":1.0,"pixelDimensions":{"x":1920.0,"y":1080.0},"depthBuffer":{},"colorBuffer":{}}'
-    m_Space: 0
+    m_Space: 1
   m_Property:
     name: o
     m_serializedType:
@@ -2394,8 +2389,7 @@ MonoBehaviour:
       m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
   m_Direction: 1
-  m_LinkedSlots:
-  - {fileID: 41}
+  m_LinkedSlots: []
 --- !u!114 &122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2698,7 +2692,7 @@ MonoBehaviour:
         m_SerializableType: UnityEditor.VFX.CameraType, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
       m_SerializableObject: '{"transform":{"position":{"x":0.0,"y":0.0,"z":0.0},"angles":{"x":0.0,"y":0.0,"z":0.0},"scale":{"x":1.0,"y":1.0,"z":1.0}},"orthographic":false,"fieldOfView":1.0471975803375245,"nearPlane":0.30000001192092898,"farPlane":1000.0,"orthographicSize":5.0,"aspectRatio":1.0,"pixelDimensions":{"x":1920.0,"y":1080.0},"depthBuffer":{},"colorBuffer":{}}'
-    m_Space: 0
+    m_Space: 1
   m_Property:
     name: Camera
     m_serializedType:
@@ -3549,7 +3543,7 @@ MonoBehaviour:
         m_SerializableType: UnityEditor.VFX.CameraType, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
       m_SerializableObject: '{"transform":{"position":{"x":0.0,"y":0.0,"z":0.0},"angles":{"x":0.0,"y":0.0,"z":0.0},"scale":{"x":1.0,"y":1.0,"z":1.0}},"orthographic":false,"fieldOfView":1.0471975803375245,"nearPlane":0.30000001192092898,"farPlane":1000.0,"orthographicSize":5.0,"aspectRatio":1.0,"pixelDimensions":{"x":1920.0,"y":1080.0},"depthBuffer":{},"colorBuffer":{}}'
-    m_Space: 0
+    m_Space: 1
   m_Property:
     name: Camera
     m_serializedType:
