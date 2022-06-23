@@ -54,8 +54,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: -459
     y: -50
-    width: 2685
-    height: 1823
+    width: 2687
+    height: 1831
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -275,7 +275,7 @@ MonoBehaviour:
   stripCapacity: 16
   particlePerStripCount: 16
   needsComputeBounds: 1
-  boundsSettingMode: 2
+  boundsMode: 2
   m_Space: 0
 --- !u!114 &8926484042661614580
 MonoBehaviour:
@@ -1939,11 +1939,11 @@ MonoBehaviour:
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
+  - {fileID: 8926484042661614908}
   - {fileID: 8926484042661614884}
   - {fileID: 8926484042661614885}
   - {fileID: 8926484042661614886}
   - {fileID: 8926484042661614891}
-  - {fileID: 8926484042661614908}
   m_OutputSlots: []
   m_Label: 
   m_Data: {fileID: 8926484042661614568}
@@ -2777,11 +2777,11 @@ MonoBehaviour:
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
+  - {fileID: 8926484042661614941}
   - {fileID: 8926484042661614914}
   - {fileID: 8926484042661614915}
   - {fileID: 8926484042661614916}
   - {fileID: 8926484042661614921}
-  - {fileID: 8926484042661614941}
   m_OutputSlots: []
   m_Label: 
   m_Data: {fileID: 8926484042661614568}
@@ -3683,11 +3683,11 @@ MonoBehaviour:
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
+  - {fileID: 8926484042661614980}
   - {fileID: 8926484042661614958}
   - {fileID: 8926484042661614959}
   - {fileID: 8926484042661614960}
   - {fileID: 8926484042661614965}
-  - {fileID: 8926484042661614980}
   m_OutputSlots: []
   m_Label: 
   m_Data: {fileID: 8926484042661614568}
