@@ -85,12 +85,20 @@
         "com.unity.render-pipelines.core": "12.1.8"
       }
     },
+    "jp.keijiro.noiseshader": {
+      "version": "2.0.0",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://registry.npmjs.com"
+    },
     "jp.keijiro.shadergraphassets": {
-      "version": "1.0.4",
+      "version": "2.5.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.shadergraph": "10.0.0"
+        "com.unity.shadergraph": "12.1.0",
+        "jp.keijiro.noiseshader": "2.0.0"
       },
       "url": "https://registry.npmjs.com"
     },
@@ -99,8 +107,8 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "com.unity.visualeffectgraph": "12.1.0",
-        "jp.keijiro.shadergraphassets": "1.0.4"
+        "com.unity.visualeffectgraph": "12.1.8",
+        "jp.keijiro.shadergraphassets": "2.5.2"
       }
     },
     "com.unity.modules.animation": {
