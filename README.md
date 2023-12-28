@@ -9,43 +9,10 @@ System requirements
 - Unity 2020.2 or later
 - HDRP 10.0 or later
 
-How to install the package
---------------------------
+## How to install
 
-This package uses the [scoped registry] feature to import dependent packages.
-Please add the following sections to the package manifest file
-(`Packages/manifest.json`).
+[Follow those instructions] to set up the scoped registry. Then, you can install
+the VFX Graph Assets package via Package Manager.
 
-To the `scopedRegistries` section:
-
-```
-{
-  "name": "Keijiro",
-  "url": "https://registry.npmjs.com",
-  "scopes": [ "jp.keijiro" ]
-}
-```
-
-To the `dependencies` section:
-
-```
-"jp.keijiro.vfxgraphassets": "1.0.10"
-```
-
-After changes, the manifest file should look like below:
-
-```
-{
-  "scopedRegistries": [
-    {
-      "name": "Keijiro",
-      "url": "https://registry.npmjs.com",
-      "scopes": [ "jp.keijiro" ]
-    }
-  ],
-  "dependencies": {
-    "jp.keijiro.vfxgraphassets": "1.0.10",
-...
-```
-
-[scoped registry]: https://docs.unity3d.com/Manual/upm-scoped.html
+[Follow those instructions]:
+  https://gist.github.com/keijiro/f8c7e8ff29bfe63d86b888901b82644c
