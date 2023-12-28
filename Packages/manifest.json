@@ -9,6 +9,6 @@
     }
   ],
   "dependencies": {
-    "com.unity.render-pipelines.high-definition": "12.1.8"
+    "com.unity.render-pipelines.high-definition": "12.1.13"
   }
 }
