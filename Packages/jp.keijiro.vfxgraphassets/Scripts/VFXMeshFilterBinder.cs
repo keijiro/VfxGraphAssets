@@ -24,7 +24,8 @@ public sealed class VFXMeshFilterBinder : VFXBinderBase
       => component.SetMesh(_meshProperty, Target.sharedMesh);
 
     public override string ToString()
-      => $"MeshFilter : '{_meshProperty}' -> {Target?.name ?? "(null)"}";
+      => $"MeshFilter : '{_meshProperty}' -> " +
+         (Target != null ? Target.name : "(null)");
 }
 
 } // namespace Klak.Vfx
