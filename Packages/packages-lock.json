@@ -129,7 +129,7 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "com.unity.visualeffectgraph": "12.1.8",
+        "com.unity.visualeffectgraph": "14.0.0",
         "jp.keijiro.shadergraphassets": "2.5.2"
       }
     },
