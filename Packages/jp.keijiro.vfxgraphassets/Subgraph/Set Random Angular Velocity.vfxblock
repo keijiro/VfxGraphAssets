@@ -50,7 +50,7 @@ MonoBehaviour:
   - name: Max Value
     path: Max Value
     tooltip: 
-    space: 0
+    space: -1
     spaceable: 0
     sheetType: m_Float
     realType: Single
@@ -85,10 +85,10 @@ MonoBehaviour:
   categories: []
   uiBounds:
     serializedVersion: 2
-    x: 546
+    x: 634
     y: 114
-    width: 819
-    height: 332
+    width: 732
+    height: 288
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -462,7 +462,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 2}
   m_Children: []
-  m_UIPosition: {x: 740, y: 277}
+  m_UIPosition: {x: 796, y: 309}
   m_UICollapsed: 0
   m_UISuperCollapsed: 1
   m_InputSlots:
@@ -586,10 +586,10 @@ MonoBehaviour:
       inputSlot: {fileID: 11}
     - outputSlot: {fileID: 22}
       inputSlot: {fileID: 16}
-    position: {x: 546.4, y: 394.40002}
+    position: {x: 633.5, y: 317.5}
     expandedSlots: []
     expanded: 0
-    supecollapsed: 0
+    supecollapsed: 1
 --- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 0

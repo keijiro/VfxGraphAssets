@@ -51,7 +51,7 @@ MonoBehaviour:
   - name: Radian
     path: Radian
     tooltip: 
-    space: 0
+    space: -1
     spaceable: 0
     sheetType: m_Float
     realType: Single
@@ -87,9 +87,9 @@ MonoBehaviour:
   uiBounds:
     serializedVersion: 2
     x: -238
-    y: 1402
-    width: 528
-    height: 132
+    y: 1413
+    width: 412
+    height: 118
 --- !u!114 &114350483966674978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,7 +105,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: -28, y: 1438}
+  m_UIPosition: {x: -74, y: 1441}
   m_UICollapsed: 0
   m_UISuperCollapsed: 1
   m_InputSlots:
@@ -363,10 +363,10 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 114350483966674986}
       inputSlot: {fileID: 114350483966674979}
-    position: {x: -213.5, y: 1401.5}
+    position: {x: -232.5, y: 1413}
     expandedSlots: []
     expanded: 0
-    supecollapsed: 0
+    supecollapsed: 1
 --- !u!114 &114350483966674986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -444,10 +444,10 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 114350483966674981}
       inputSlot: {fileID: 114350483966674989}
-    position: {x: 168, y: 1456}
+    position: {x: 52.5, y: 1434.5}
     expandedSlots: []
     expanded: 0
-    supecollapsed: 0
+    supecollapsed: 1
 --- !u!114 &114350483966674989
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -53,7 +53,7 @@ MonoBehaviour:
   - name: Origin
     path: Origin
     tooltip: 
-    space: 0
+    space: -1
     spaceable: 0
     sheetType: m_Vector3f
     realType: Vector3
@@ -69,7 +69,7 @@ MonoBehaviour:
   - name: Speed
     path: Speed
     tooltip: 
-    space: 0
+    space: -1
     spaceable: 0
     sheetType: m_Vector3f
     realType: Vector3
@@ -105,9 +105,9 @@ MonoBehaviour:
   uiBounds:
     serializedVersion: 2
     x: 2767
-    y: 1730
-    width: 714
-    height: 156
+    y: 1762
+    width: 625
+    height: 101
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123,7 +123,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 2}
   m_Children: []
-  m_UIPosition: {x: 2971, y: 1819}
+  m_UIPosition: {x: 2945, y: 1805}
   m_UICollapsed: 0
   m_UISuperCollapsed: 1
   m_InputSlots:
@@ -491,10 +491,10 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 54}
       inputSlot: {fileID: 30}
-    position: {x: 3355.2, y: 1782.3999}
+    position: {x: 3267.5, y: 1790}
     expandedSlots: []
     expanded: 0
-    supecollapsed: 0
+    supecollapsed: 1
 --- !u!114 &30
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -655,7 +655,7 @@ MonoBehaviour:
   - {fileID: 35}
   m_ExposedName: Speed
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 2
   m_Category: 
   m_Min:
     m_Type:
@@ -674,10 +674,10 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 35}
       inputSlot: {fileID: 17}
-    position: {x: 2803, y: 1834}
+    position: {x: 2788, y: 1820}
     expandedSlots: []
     expanded: 0
-    supecollapsed: 0
+    supecollapsed: 1
 --- !u!114 &35
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -895,7 +895,7 @@ MonoBehaviour:
   - {fileID: 42}
   m_ExposedName: Origin
   m_Exposed: 1
-  m_Order: 0
+  m_Order: 1
   m_Category: 
   m_Min:
     m_Type:
@@ -914,10 +914,10 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 42}
       inputSlot: {fileID: 50}
-    position: {x: 3006.4, y: 1730.3999}
+    position: {x: 2975, y: 1762}
     expandedSlots: []
     expanded: 0
-    supecollapsed: 0
+    supecollapsed: 1
 --- !u!114 &42
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1070,7 +1070,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 2}
   m_Children: []
-  m_UIPosition: {x: 3174, y: 1775}
+  m_UIPosition: {x: 3128, y: 1790}
   m_UICollapsed: 0
   m_UISuperCollapsed: 1
   m_InputSlots:

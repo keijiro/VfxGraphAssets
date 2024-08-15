@@ -53,7 +53,7 @@ MonoBehaviour:
   - name: Input
     path: Input
     tooltip: 
-    space: 0
+    space: -1
     spaceable: 0
     sheetType: m_Vector3f
     realType: Vector3
@@ -69,7 +69,7 @@ MonoBehaviour:
   - name: Step
     path: Step
     tooltip: 
-    space: 0
+    space: -1
     spaceable: 0
     sheetType: m_Vector3f
     realType: Vector3
@@ -104,10 +104,10 @@ MonoBehaviour:
   categories: []
   uiBounds:
     serializedVersion: 2
-    x: 2612
-    y: 1876
-    width: 925
-    height: 104
+    x: 2610
+    y: 1885
+    width: 698
+    height: 86
 --- !u!114 &114350483966674978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123,7 +123,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 2980, y: 1898}
+  m_UIPosition: {x: 2887, y: 1898}
   m_UICollapsed: 0
   m_UISuperCollapsed: 1
   m_InputSlots:
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 2818, y: 1898}
+  m_UIPosition: {x: 2751, y: 1898}
   m_UICollapsed: 0
   m_UISuperCollapsed: 1
   m_InputSlots:
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 3172, y: 1928}
+  m_UIPosition: {x: 3044, y: 1928}
   m_UICollapsed: 0
   m_UISuperCollapsed: 1
   m_InputSlots:
@@ -220,7 +220,7 @@ MonoBehaviour:
   - {fileID: 114350483966675003}
   m_ExposedName: Input
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 0
   m_Category: 
   m_Min:
     m_Type:
@@ -239,10 +239,10 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 114350483966675003}
       inputSlot: {fileID: 114350483966675021}
-    position: {x: 2621.3335, y: 1876}
+    position: {x: 2609.5, y: 1885}
     expandedSlots: []
     expanded: 0
-    supecollapsed: 0
+    supecollapsed: 1
 --- !u!114 &114350483966675003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -403,7 +403,7 @@ MonoBehaviour:
   - {fileID: 114350483966675008}
   m_ExposedName: Step
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 1
   m_Category: 
   m_Min:
     m_Type:
@@ -427,7 +427,7 @@ MonoBehaviour:
     position: {x: 2612, y: 1928}
     expandedSlots: []
     expanded: 0
-    supecollapsed: 0
+    supecollapsed: 1
 --- !u!114 &114350483966675008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -589,7 +589,7 @@ MonoBehaviour:
   m_OutputSlots: []
   m_ExposedName: Output
   m_Exposed: 0
-  m_Order: 4
+  m_Order: 2
   m_Category: 
   m_Min:
     m_Type:
@@ -608,10 +608,10 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 114350483966675037}
       inputSlot: {fileID: 114350483966675017}
-    position: {x: 3370.6667, y: 1928}
+    position: {x: 3188, y: 1928}
     expandedSlots: []
     expanded: 0
-    supecollapsed: 0
+    supecollapsed: 1
 --- !u!114 &114350483966675017
 MonoBehaviour:
   m_ObjectHideFlags: 0

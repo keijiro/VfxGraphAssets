@@ -6,7 +6,7 @@ VisualEffectResource:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Random Anglular Velocity
+  m_Name: Random Angular Velocity
   m_Graph: {fileID: 2}
   m_Infos:
     m_RendererSettings:
@@ -33,7 +33,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d4c867f6b72b714dbb5fd1780afe208, type: 3}
-  m_Name: Random Anglular Velocity
+  m_Name: Random Angular Velocity
   m_EditorClassIdentifier: 
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 0}
@@ -109,10 +109,10 @@ MonoBehaviour:
   categories: []
   uiBounds:
     serializedVersion: 2
-    x: -221
-    y: -447
-    width: 1735
-    height: 591
+    x: -97
+    y: -239
+    width: 1100
+    height: 269
 --- !u!114 &49
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,9 +128,9 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 2}
   m_Children: []
-  m_UIPosition: {x: 492, y: -236}
+  m_UIPosition: {x: 415, y: -154}
   m_UICollapsed: 0
-  m_UISuperCollapsed: 0
+  m_UISuperCollapsed: 1
   m_InputSlots:
   - {fileID: 121}
   - {fileID: 122}
@@ -228,9 +228,9 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 2}
   m_Children: []
-  m_UIPosition: {x: 494, y: -31}
+  m_UIPosition: {x: 415, y: -43}
   m_UICollapsed: 0
-  m_UISuperCollapsed: 0
+  m_UISuperCollapsed: 1
   m_InputSlots:
   - {fileID: 123}
   - {fileID: 124}
@@ -328,9 +328,9 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 2}
   m_Children: []
-  m_UIPosition: {x: 494, y: -447}
+  m_UIPosition: {x: 415, y: -239}
   m_UICollapsed: 0
-  m_UISuperCollapsed: 0
+  m_UISuperCollapsed: 1
   m_InputSlots:
   - {fileID: 125}
   - {fileID: 126}
@@ -455,10 +455,10 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 117}
       inputSlot: {fileID: 69}
-    position: {x: 1402, y: -135}
+    position: {x: 890, y: -28}
     expandedSlots: []
     expanded: 0
-    supecollapsed: 0
+    supecollapsed: 1
 --- !u!114 &69
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -611,9 +611,9 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 2}
   m_Children: []
-  m_UIPosition: {x: 858, y: -224}
+  m_UIPosition: {x: 624, y: -43}
   m_UICollapsed: 0
-  m_UISuperCollapsed: 0
+  m_UISuperCollapsed: 1
   m_InputSlots:
   - {fileID: 74}
   m_OutputSlots:
@@ -939,10 +939,10 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 83}
       inputSlot: {fileID: 88}
-    position: {x: -220.5, y: -214.5}
+    position: {x: -51, y: -213.5}
     expandedSlots: []
     expanded: 0
-    supecollapsed: 0
+    supecollapsed: 1
 --- !u!114 &83
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -993,7 +993,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 2}
   m_Children: []
-  m_UIPosition: {x: -35, y: -251}
+  m_UIPosition: {x: 58, y: -244}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -1267,7 +1267,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 2}
   m_Children: []
-  m_UIPosition: {x: 277, y: 26}
+  m_UIPosition: {x: 276, y: -81}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -1430,10 +1430,10 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 108}
       inputSlot: {fileID: 111}
-    position: {x: 979, y: -73.5}
+    position: {x: 578, y: -13}
     expandedSlots: []
     expanded: 0
-    supecollapsed: 0
+    supecollapsed: 1
 --- !u!114 &108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1484,7 +1484,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 2}
   m_Children: []
-  m_UIPosition: {x: 1195, y: -126}
+  m_UIPosition: {x: 746, y: -28}
   m_UICollapsed: 0
   m_UISuperCollapsed: 1
   m_InputSlots:

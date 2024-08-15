@@ -58,7 +58,7 @@ MonoBehaviour:
   - name: Linear
     path: Linear
     tooltip: 
-    space: 0
+    space: -1
     spaceable: 0
     sheetType: m_Vector4f
     realType: Color
@@ -93,10 +93,10 @@ MonoBehaviour:
   categories: []
   uiBounds:
     serializedVersion: 2
-    x: 112
-    y: -652
-    width: 1731
-    height: 250
+    x: 343
+    y: -598
+    width: 1153
+    height: 143
 --- !u!114 &27
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -137,13 +137,19 @@ MonoBehaviour:
   m_Nodes:
   - m_Id: 0
     linkedSlots:
-    - outputSlot: {fileID: 32}
-      inputSlot: {fileID: 49}
     - outputSlot: {fileID: 28}
       inputSlot: {fileID: 56}
-    position: {x: 203, y: -501.5}
+    position: {x: 343, y: -598}
     expandedSlots: []
     expanded: 1
+    supecollapsed: 0
+  - m_Id: 1
+    linkedSlots:
+    - outputSlot: {fileID: 32}
+      inputSlot: {fileID: 49}
+    position: {x: 1148.5, y: -530}
+    expandedSlots: []
+    expanded: 0
     supecollapsed: 0
 --- !u!114 &28
 MonoBehaviour:
@@ -359,10 +365,10 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 50}
       inputSlot: {fileID: 39}
-    position: {x: 1606.5, y: -477.5}
+    position: {x: 1385, y: -573}
     expandedSlots: []
     expanded: 0
-    supecollapsed: 0
+    supecollapsed: 1
 --- !u!114 &39
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -549,7 +555,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 2}
   m_Children: []
-  m_UIPosition: {x: 1485, y: -452}
+  m_UIPosition: {x: 1306, y: -560}
   m_UICollapsed: 0
   m_UISuperCollapsed: 1
   m_InputSlots:
@@ -1218,7 +1224,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 2}
   m_Children: []
-  m_UIPosition: {x: 628, y: -560}
+  m_UIPosition: {x: 602, y: -560}
   m_UICollapsed: 0
   m_UISuperCollapsed: 1
   m_InputSlots:
@@ -1285,7 +1291,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 2}
   m_Children: []
-  m_UIPosition: {x: 408, y: -530}
+  m_UIPosition: {x: 430, y: -530}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -1653,7 +1659,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 2}
   m_Children: []
-  m_UIPosition: {x: 841, y: -560}
+  m_UIPosition: {x: 787, y: -560}
   m_UICollapsed: 0
   m_UISuperCollapsed: 1
   m_InputSlots:
@@ -1994,7 +2000,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 2}
   m_Children: []
-  m_UIPosition: {x: 622, y: -530}
+  m_UIPosition: {x: 614, y: -530}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -2088,7 +2094,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 2}
   m_Children: []
-  m_UIPosition: {x: 1055, y: -560}
+  m_UIPosition: {x: 972, y: -560}
   m_UICollapsed: 0
   m_UISuperCollapsed: 1
   m_InputSlots:
@@ -2429,7 +2435,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 2}
   m_Children: []
-  m_UIPosition: {x: 843, y: -530}
+  m_UIPosition: {x: 806, y: -530}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -2523,7 +2529,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 2}
   m_Children: []
-  m_UIPosition: {x: 1248, y: -560}
+  m_UIPosition: {x: 1120, y: -560}
   m_UICollapsed: 0
   m_UISuperCollapsed: 1
   m_InputSlots:
