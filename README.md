@@ -1,13 +1,16 @@
 VfxGraphAssets
 ==============
 
-Basic asset collection for Unity VFX Graph
+![Screenshot](https://github.com/user-attachments/assets/e361b2c5-045c-4625-b933-5bcbf2b38c18)
+
+The **VfxGraphAssets** package is a library of custom subgraphs
+(operators/blocks), shaders, and meshes for Unity VFX Graph.
 
 System requirements
 -------------------
 
-- Unity 2020.2 or later
-- HDRP 10.0 or later
+- Unity 6
+- Compatible with HDRP and URP
 
 ## How to install
 
