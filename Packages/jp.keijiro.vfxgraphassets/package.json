@@ -1,15 +1,15 @@
 {
   "author": "Keijiro Takahashi",
   "dependencies": {
-    "com.unity.visualeffectgraph": "14.0.0",
+    "com.unity.visualeffectgraph": "17.0.0",
     "jp.keijiro.shadergraphassets": "2.5.2"
   },
-  "description": "Keijiro's basic asset collection for VFX Graph",
+  "description": "VFX Graph custom asset library",
   "displayName": "VFX Graph Assets",
   "keywords": [ "unity" ],
   "license": "Unlicense",
   "name": "jp.keijiro.vfxgraphassets",
-  "unity": "2022.3",
+  "unity": "6000.0",
   "unityRelease": "0f1",
-  "version": "2.1.1"
+  "version": "3.0.0"
 }

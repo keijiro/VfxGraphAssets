@@ -185,7 +185,7 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "com.unity.visualeffectgraph": "14.0.0",
+        "com.unity.visualeffectgraph": "17.0.0",
         "jp.keijiro.shadergraphassets": "2.5.2"
       }
     },
