@@ -5101,7 +5101,7 @@ MonoBehaviour:
       m_SerializableObject: 0.01
     m_Space: -1
   m_Property:
-    name: Epsilong
+    name: Epsilon
     m_serializedType:
       m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
@@ -5263,7 +5263,7 @@ MonoBehaviour:
       m_SerializableObject: 0.01
     m_Space: -1
   m_Property:
-    name: Epsilong
+    name: Epsilon
     m_serializedType:
       m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
@@ -5425,7 +5425,7 @@ MonoBehaviour:
       m_SerializableObject: 0.01
     m_Space: -1
   m_Property:
-    name: Epsilong
+    name: Epsilon
     m_serializedType:
       m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
@@ -5587,7 +5587,7 @@ MonoBehaviour:
       m_SerializableObject: 0.01
     m_Space: -1
   m_Property:
-    name: Epsilong
+    name: Epsilon
     m_serializedType:
       m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089

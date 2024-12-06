@@ -82,8 +82,8 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: Epsilong
-    path: Epsilong
+  - name: Epsilon
+    path: Epsilon
     tooltip: 
     space: -1
     spaceable: 0
@@ -679,7 +679,7 @@ MonoBehaviour:
   m_InputSlots: []
   m_OutputSlots:
   - {fileID: 68}
-  m_ExposedName: Epsilong
+  m_ExposedName: Epsilon
   m_Exposed: 1
   m_Order: 2
   m_Category: 
