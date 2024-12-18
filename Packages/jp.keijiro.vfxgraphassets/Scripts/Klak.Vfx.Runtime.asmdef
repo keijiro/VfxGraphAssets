@@ -11,6 +11,12 @@
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [],
-    "versionDefines": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.modules.uielements",
+            "expression": "1.0.0",
+            "define": "ENABLE_UITK_BINDERS"
+        }
+    ],
     "noEngineReferences": false
 }
