@@ -1,11 +1,13 @@
 {
-    "name": "Klak.Vfx.Runtime",
+    "name": "Klak.Vfx.Editor",
     "rootNamespace": "",
     "references": [
-        "GUID:d04eb9c554ad44ceab303cecf0c0cf82",
-        "GUID:75469ad4d38634e559750d17036d5f7c"
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:38e0088b1b297364f90d05ff7f4fa032"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
@@ -13,11 +15,6 @@
     "autoReferenced": true,
     "defineConstraints": [],
     "versionDefines": [
-        {
-            "name": "com.unity.modules.uielements",
-            "expression": "1.0.0",
-            "define": "ENABLE_UITK_BINDERS"
-        },
         {
             "name": "com.unity.inputsystem",
             "expression": "1.0.0",
