@@ -10,6 +10,7 @@
   ],
   "dependencies": {
     "com.unity.render-pipelines.high-definition": "17.0.4",
-    "com.unity.render-pipelines.universal": "17.0.4"
+    "com.unity.render-pipelines.universal": "17.0.4",
+    "jp.keijiro.klutter-tools": "2.3.0"
   }
 }
