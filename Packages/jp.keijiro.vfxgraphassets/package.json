@@ -1,15 +1,17 @@
 {
+  "name": "jp.keijiro.vfxgraphassets",
+  "version": "3.10.0",
+  "displayName": "VFX Graph Assets",
+  "description": "VFX Graph custom asset library",
+  "unity": "6000.0",
   "author": "Keijiro Takahashi",
   "dependencies": {
     "com.unity.visualeffectgraph": "17.0.0",
     "jp.keijiro.shadergraphassets": "2.5.2"
   },
-  "description": "VFX Graph custom asset library",
-  "displayName": "VFX Graph Assets",
-  "keywords": [ "unity" ],
+  "changelogUrl": "https://github.com/keijiro/VfxGraphAssets/blob/main/CHANGELOG.md",
+  "documentationUrl": "https://github.com/keijiro/VfxGraphAssets",
+  "licensesUrl": "https://github.com/keijiro/VfxGraphAssets/blob/main/LICENSE",
   "license": "Unlicense",
-  "name": "jp.keijiro.vfxgraphassets",
-  "unity": "6000.0",
-  "unityRelease": "0f1",
-  "version": "3.10.0"
+  "_upm": { "changelog": "" }
 }

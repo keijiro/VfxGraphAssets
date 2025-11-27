@@ -12,6 +12,7 @@ Desktop.ini
 /*.sln
 *.swp
 *.vcxproj.user
+/*.tgz
 
 # Unity
 /Library
