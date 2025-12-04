@@ -12,15 +12,9 @@ The **VfxGraphAssets** package is a collection of custom subgraphs
 
 ## How to install
 
-[Follow those instructions] to set up the scoped registry. Then, you can install
-the VFX Graph Assets package via Package Manager.
-
-[Follow those instructions]:
-  https://gist.github.com/keijiro/f8c7e8ff29bfe63d86b888901b82644c
-
-The VfxGraphAssets package (`jp.keijiro.vfxgraphassets`) can be installed via
-the "Keijiro" scoped registry using Package Manager. To add the registry to your
-project, please follow [these instructions].
+You can install the VfxGraphAssets package (`jp.keijiro.vfxgraphassets`) via
+the "Keijiro" scoped registry using the Unity Package Manager. To add the
+registry to your project, follow [these instructions].
 
 [these instructions]:
   https://gist.github.com/keijiro/f8c7e8ff29bfe63d86b888901b82644c
